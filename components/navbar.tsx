@@ -11,6 +11,7 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/chat", label: "Analyze Results" },
   { href: "/tests", label: "Common Tests" },
+  { href: "/pdf", label: "PDF Summary" },
 ];
 
 export function Navbar() {

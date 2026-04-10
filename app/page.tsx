@@ -222,22 +222,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-border/50 px-4 py-8">
-        <div className="container mx-auto max-w-6xl">
-          <div className="flex flex-col items-center justify-between gap-4 text-sm text-muted-foreground md:flex-row">
-            <div className="flex items-center gap-2">
-              <FlaskConical className="h-4 w-4" />
-              <span className="font-medium text-foreground">LabAI</span>
-              <span>— AI-powered lab result explainer</span>
-            </div>
-            <p className="text-xs">
-              For educational purposes only. Always consult a qualified
-              healthcare provider for medical advice.
-            </p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }

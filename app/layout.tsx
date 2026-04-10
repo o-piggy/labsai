@@ -41,6 +41,11 @@ export default function RootLayout({
         >
           <Navbar />
           <main className="flex-1">{children}</main>
+          <footer className="border-t border-border/50 px-4 py-6">
+            <div className="container mx-auto max-w-6xl text-center text-xs text-muted-foreground">
+              Copyright 2026 Clementius Carel Sie
+            </div>
+          </footer>
         </ThemeProvider>
       </body>
     </html>
