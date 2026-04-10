@@ -43,7 +43,7 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
           <footer className="border-t border-border/50 px-4 py-6">
             <div className="container mx-auto max-w-6xl text-center text-xs text-muted-foreground">
-              Copyright 2026 Clementius Carel Sie
+              Copyright Kekeyi Bukan Boneka Team 2026
             </div>
           </footer>
         </ThemeProvider>
